@@ -3,15 +3,12 @@ using Printf
 stretchesSpacing::Vector{Float64} = [0.0000, 0.005, -0.005, 0.01, -0.01, 0.015, -0.015, 0.02, -0.02, 0.025, -0.025, 0.03, -0.03]
 angleSpacing::Vector{Float64} = [0.0000, 0.2500, -0.2500, 0.500, -0.500, 0.75, -0.75, 1.00, -1.00, 1.25, -1.25, 1.50, -1.50]
 dihedralSpacing::Vector{Float64} = [0.0000, 0.2500, -0.2500, 0.500, -0.500, 0.75, -0.75, 1.00, -1.00, 1.25, -1.25, 1.50, -1.50]
-torsionSpacing::Vector{Float64} = [0.0000, 0.0500, 0.100, 0.150, 0.200, 0.25, 0.30, 0.35, 0.40, 0.45, 0.5, 0.6, 0.7, 0.8, 0.9, 1.00]
+torsionSpacing::Vector{Float64} = [0.0000, 0.100, 0.200, 0.30, 0.40, 0.5, 0.6, 0.7, 0.8, 0.9, 1.00, 1.2, 1.4, 1.6, 1.8, 2.00, 3.00, 4.00, 5.00]
 
 stretchesGrid::Int64 = size(stretchesSpacing)[1]
 angleGrid::Int64 = size(angleSpacing)[1]
 dihedralGrid::Int64 = size(angleSpacing)[1]
 torsionGrid::Int64 = size(torsionSpacing)[1]
-# println(stretchesGrid)
-# println(angleGrid)
-# println(dihedralGrid)
 convertToRadians::Float64 = 2*pi/360
 
 function EqCH(tau::Float64)::Float64
@@ -38,19 +35,13 @@ end
 d1::Float64 =  61.43364279
 d2::Float64 = 180.00000000
 d3::Float64 = 298.56635721
-# println((2*(d3 - d2)-(d2 - d1) - (d1 + 360 - d3))/sqrt(6))
-# println(((d1+360-d3) - (d2 - d1))/sqrt(2))
 SaEq::Float64 = -1.7558466544600673
 SbEq::Float64 =  3.04121561582463
 tau::Float64 = 60.00
 
 ahh1::Float64 = tau+1.0/3.0*sqrt(2.0)*SbEq
 ahh2::Float64 = 120.0+tau-1.0/6.0*sqrt(2.0)*SbEq-1.0/6.0*sqrt(6.0)*SaEq
-# ahh3::Float64 = 240.0+tau-1.0/6.0*sqrt(2.0)*Sb-1.0/6.0*sqrt(6.0)*Sa
 ahh3::Float64 = 240.0+tau-1.0/6.0*sqrt(2.0)*SbEq+1.0/6.0*sqrt(6.0)*SaEq
-# println(ahh1)
-# println(ahh2)
-# println(ahh3)
 
 rCOeq::Float64 =                1.42077677
 rOHeq::Float64=                 0.96013932
@@ -72,9 +63,13 @@ function PrintGeometry(grid::Vector{Float64})
 end
 PrintGeometry(equilibriumGrid)
 
-# run(`mkdir CH3OH_1D_MEP_AdaptiveGrid`)
+function SubmitJob(point::Int64, grid::Vector{Float64})
+    submission::Cmd = `qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(grid[1]) $(grid[2]) $(grid[3]) $(grid[4]) $(grid[5]) $(grid[6]) $(grid[7]) $(grid[8]) $(grid[9]) $(grid[10]) $(grid[11]) $(grid[12])`
+    run(submission)
+end
+
 point::Int64 = 1
-run(`qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(equilibriumGrid[1]) $(equilibriumGrid[2]) $(equilibriumGrid[3]) $(equilibriumGrid[4]) $(equilibriumGrid[5]) $(equilibriumGrid[6]) $(equilibriumGrid[7]) $(equilibriumGrid[8]) $(equilibriumGrid[9]) $(equilibriumGrid[10]) $(equilibriumGrid[11]) $(equilibriumGrid[12])`)
+SubmitJob(point, equilibriumGrid)
 
 for i in 1:4
     for j in 2:stretchesGrid
@@ -82,10 +77,8 @@ for i in 1:4
         displacementVector::Vector{Float64} = zeros(12)
         displacementVector[i] = stretchesSpacing[j]
         grid::Vector{Float64} = equilibriumGrid + displacementVector
-        submission::Cmd = `qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(grid[1]) $(grid[2]) $(grid[3]) $(grid[4]) $(grid[5]) $(grid[6]) $(grid[7]) $(grid[8]) $(grid[9]) $(grid[10]) $(grid[11]) $(grid[12])`
-        println(submission)
-        run(submission)
-        # PrintGeometry(grid)
+        SubmitJob(point, grid)
+        PrintGeometry(grid)
     end
 end
 for i in 6:8
@@ -94,10 +87,8 @@ for i in 6:8
         displacementVector::Vector{Float64} = zeros(12)
         displacementVector[i] = angleSpacing[j]
         grid::Vector{Float64} = equilibriumGrid + displacementVector
-        submission::Cmd = `qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(grid[1]) $(grid[2]) $(grid[3]) $(grid[4]) $(grid[5]) $(grid[6]) $(grid[7]) $(grid[8]) $(grid[9]) $(grid[10]) $(grid[11]) $(grid[12])`
-        println(submission)
-        run(submission)
-        # PrintGeometry(grid)
+        SubmitJob(point, grid)
+        PrintGeometry(grid)
     end
 end
 for i in 10:11
@@ -111,10 +102,8 @@ for i in 10:11
         grid[11] = 120.0+tau-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
         grid[12] = 240.0+tau-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
         
-        submission::Cmd = `qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(grid[1]) $(grid[2]) $(grid[3]) $(grid[4]) $(grid[5]) $(grid[6]) $(grid[7]) $(grid[8]) $(grid[9]) $(grid[10]) $(grid[11]) $(grid[12])`
-        println(submission)
-        run(submission)
-        # PrintGeometry(grid)
+        SubmitJob(point, grid)
+        PrintGeometry(grid)
     end
 end
 for j in 2:torsionGrid
@@ -130,8 +119,6 @@ for j in 2:torsionGrid
     grid[7] = EqaHCO(tauEq + torsionSpacing[j])
     grid[8] = EqaHCO(tauEq + torsionSpacing[j] + 120)
     grid[9] = EqaHCO(tauEq + torsionSpacing[j] + 240)
-    submission::Cmd = `qsub -e CH3OH_1D_MEP_AdaptiveGrid_$(point).e -o CH3OH_1D_MEP_AdaptiveGrid_$(point).o -l h_rt="11:59:00" GenerateMolproScript1D.csh $(point) $(grid[1]) $(grid[2]) $(grid[3]) $(grid[4]) $(grid[5]) $(grid[6]) $(grid[7]) $(grid[8]) $(grid[9]) $(grid[10]) $(grid[11]) $(grid[12])`
-    println(submission)
-    run(submission)
-    # PrintGeometry(grid)
+    SubmitJob(point, grid)
+    PrintGeometry(grid)
 end

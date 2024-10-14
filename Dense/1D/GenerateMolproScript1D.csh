@@ -6,7 +6,7 @@
 set pwd = `pwd`
 
 set point = $1        
-set directory = CH3OH_1D_MEP_AdaptiveGrid
+set directory = /scratch/scratch/zcaposm/Methanol/MOLPRO/Dense/1D/CH3OH_1D_MEP_AdaptiveGrid
 set fname = CH3OH_1D_MEP_point_${point}
 
 cat<<endb> ${fname}.inp
@@ -63,5 +63,5 @@ endb
 module load molpro/2020.1/openmp
 molpro ${fname}.inp
 rm ${fname}.inp
-cp ${fname}.out /scratch/scratch/zcaposm/Methanol/GenerateScripts/Grids1D/${directory}
-cp CH3OH_MEP_MP2_${point}.dat /scratch/scratch/zcaposm/Methanol/GenerateScripts/Grids1D/${directory}
+cp ${fname}.out ${directory}
+cp CH3OH_MEP_MP2_${point}.dat ${directory}

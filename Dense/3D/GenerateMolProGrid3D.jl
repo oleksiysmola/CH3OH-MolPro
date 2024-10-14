@@ -229,134 +229,209 @@ for i in 1:5
             end
         end
     end
+    for k in 10:11
+        for m in k+1:11
+            for j in 2:stretchesGrid
+                displacementVector::Vector{Float64} = zeros(12)
+                displacementVector[i] = stretchesSpacing[j]
+                for l in 2:dihedralGrid
+                    symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+                    symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
+                    for n in 2:dihedralGrid
+                        if j + l + n > maxDisplacements
+                            continue
+                        end
+                        symmeterisedDihedrals[m - 9] = symmeterisedDihedrals[m - 9] + dihedralSpacing[n]
+                        grid::Vector{Float64} = equilibriumGrid + displacementVector
+                        grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                        grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        push!(grids, grid)
+                        PrintGeometry(point, grid)
+                        global point = point + 1
+                    end
+                end
+            end
+        end
+        for j in 2:stretchesGrid
+            displacementVector::Vector{Float64} = zeros(12)
+            displacementVector[i] = stretchesSpacing[j]
+            for l in 2:dihedralGrid
+                symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+                symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
+                for n in 2:torsionGrid
+                    if j + l + n > maxDisplacements
+                        continue
+                    end
+                    grid::Vector{Float64} = equilibriumGrid + displacementVector
+                    grid[3] = EqCH(tauEq + torsionSpacing[n]) + displacementVector[3]
+                    grid[4] = EqCH(tauEq + torsionSpacing[n] + 120) + displacementVector[4]
+                    grid[5] = EqCH(tauEq + torsionSpacing[n] + 240) + displacementVector[5]
+                    grid[7] = EqaHCO(tauEq + torsionSpacing[n]) + displacementVector[7]
+                    grid[8] = EqaHCO(tauEq + torsionSpacing[n] + 120) + displacementVector[8]
+                    grid[9] = EqaHCO(tauEq + torsionSpacing[n] + 240) + displacementVector[9]
+                    grid[10] = tauEq+torsionSpacing[n]+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                    grid[11] = 120.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    grid[12] = 240.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    push!(grids, grid)
+                    PrintGeometry(point, grid)
+                    global point = point + 1
+                end
+            end
+        end
+    end
 end
 
-#     for k in 10:11
-#         for j in 2:stretchesGrid
-#             displacementVector::Vector{Float64} = zeros(12)
-#             displacementVector[i] = stretchesSpacing[j]
-#             for l in 2:dihedralGrid
-#                 symmeterisedDihedrals::Vector{Float64} = [-1.7558466544600673, 3.04121561582463]
-#                 symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
-#                 grid::Vector{Float64} = equilibriumGrid + displacementVector
-#                 grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
-#                 grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 PrintGeometry(point, grid)
-#                 push!(grids, grid)
-#                 global point = point + 1
-#             end
-#         end
-#     end
-#     for j in 2:stretchesGrid
-#         displacementVector::Vector{Float64} = zeros(12)
-#         displacementVector[i] = stretchesSpacing[j]
-#         for l in 2:torsionGrid
-#             displacementVector[10] = torsionSpacing[l]
-#             displacementVector[11] = torsionSpacing[l]
-#             displacementVector[12] = torsionSpacing[l]
-#             grid::Vector{Float64} = equilibriumGrid + displacementVector
-#             grid[3] = EqCH(tauEq + torsionSpacing[l])
-#             grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-#             grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-#             grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-#             grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-#             grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
-#             PrintGeometry(point, grid)
-#             push!(grids, grid)
-#             global point = point + 1
-#         end
-#     end
-# end
+for i in 6:9
+    for k in i+1:9
+        for m in k+1:9
+            for j in 2:angleGrid
+                displacementVector::Vector{Float64} = zeros(12)
+                displacementVector[i] = angleSpacing[j]
+                for l in 2:angleGrid
+                    displacementVector[k] = angleSpacing[l]
+                    for n in 2:angleGrid
+                        if j + l + n > maxDisplacements
+                            continue
+                        end
+                        displacementVector[m] = angleSpacing[l]
+                        grid::Vector{Float64} = equilibriumGrid + displacementVector
+                        push!(grids, grid)
+                        PrintGeometry(point, grid)
+                        global point = point + 1
+                    end
+                end
+            end
+        end
+        for m in 10:11
+            for j in 2:angleGrid
+                displacementVector::Vector{Float64} = zeros(12)
+                displacementVector[i] = angleSpacing[j]
+                for l in 2:angleGrid
+                    displacementVector[k] = angleSpacing[l]
+                    for n in 2:dihedralGrid
+                        if j + l + n > maxDisplacements
+                            continue
+                        end
+                        symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+                        symmeterisedDihedrals[m - 9] = symmeterisedDihedrals[m - 9] + dihedralSpacing[n]
+                        grid::Vector{Float64} = equilibriumGrid + displacementVector
+                        grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                        grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        push!(grids, grid)
+                        PrintGeometry(point, grid)
+                        global point = point + 1
+                    end
+                end
+            end
+        end
+        for j in 2:angleGrid
+            displacementVector::Vector{Float64} = zeros(12)
+            displacementVector[i] = angleSpacing[j]
+            for l in 2:angleGrid
+                displacementVector[k] = angleSpacing[l]
+                for n in 2:torsionGrid
+                    if j + l + n > maxDisplacements
+                        continue
+                    end
+                    displacementVector[10] = torsionSpacing[n]
+                    displacementVector[11] = torsionSpacing[n]
+                    displacementVector[12] = torsionSpacing[n]
+                    grid::Vector{Float64} = equilibriumGrid + displacementVector
+                    grid[3] = EqCH(tauEq + torsionSpacing[n]) + displacementVector[3]
+                    grid[4] = EqCH(tauEq + torsionSpacing[n] + 120) + displacementVector[4]
+                    grid[5] = EqCH(tauEq + torsionSpacing[n] + 240) + displacementVector[5]
+                    grid[7] = EqaHCO(tauEq + torsionSpacing[n]) + displacementVector[7]
+                    grid[8] = EqaHCO(tauEq + torsionSpacing[n] + 120) + displacementVector[8]
+                    grid[9] = EqaHCO(tauEq + torsionSpacing[n] + 240) + displacementVector[9]
+                    push!(grids, grid)
+                    PrintGeometry(point, grid)
+                    global point = point + 1
+                end
+            end
+        end
+    end
+    for k in 10:11
+        for m in k+1:11
+            for j in 2:angleGrid
+                displacementVector::Vector{Float64} = zeros(12)
+                displacementVector[i] = angleSpacing[j]
+                for l in 2:dihedralGrid
+                    symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+                    symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
+                    for n in 2:dihedralGrid
+                        if j + l + n > maxDisplacements
+                            continue
+                        end
+                        symmeterisedDihedrals[m - 9] = symmeterisedDihedrals[m - 9] + dihedralSpacing[n]
+                        grid::Vector{Float64} = equilibriumGrid + displacementVector
+                        grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                        grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                        push!(grids, grid)
+                        PrintGeometry(point, grid)
+                        global point = point + 1
+                    end
+                end
+            end
+        end
+        for j in 2:angleGrid
+            displacementVector::Vector{Float64} = zeros(12)
+            displacementVector[i] = angleSpacing[j]
+            for l in 2:dihedralGrid
+                symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+                symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
+                for n in 2:torsionGrid
+                    if j + l + n > maxDisplacements
+                        continue
+                    end
+                    grid::Vector{Float64} = equilibriumGrid + displacementVector
+                    grid[3] = EqCH(tauEq + torsionSpacing[n]) + displacementVector[3]
+                    grid[4] = EqCH(tauEq + torsionSpacing[n] + 120) + displacementVector[4]
+                    grid[5] = EqCH(tauEq + torsionSpacing[n] + 240) + displacementVector[5]
+                    grid[7] = EqaHCO(tauEq + torsionSpacing[n]) + displacementVector[7]
+                    grid[8] = EqaHCO(tauEq + torsionSpacing[n] + 120) + displacementVector[8]
+                    grid[9] = EqaHCO(tauEq + torsionSpacing[n] + 240) + displacementVector[9]
+                    grid[10] = tauEq+torsionSpacing[n]+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                    grid[11] = 120.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    grid[12] = 240.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    push!(grids, grid)
+                    PrintGeometry(point, grid)
+                    global point = point + 1
+                end
+            end
+        end
+    end
+end
 
-# for i in 6:9
-#     for k in i+1:9
-#         for j in 2:angleGrid
-#             displacementVector::Vector{Float64} = zeros(12)
-#             displacementVector[i] = angleSpacing[j]
-#             for l in 2:angleGrid
-#                 displacementVector[k] = angleSpacing[l]
-#                 grid::Vector{Float64} = equilibriumGrid + displacementVector
-#                 push!(grids, grid)
-#                 PrintGeometry(point, grid)
-#                 global point = point + 1
-#             end
-#         end
-#     end
-#     for k in 10:11
-#         for j in 2:angleGrid
-#             displacementVector::Vector{Float64} = zeros(12)
-#             displacementVector[i] = angleSpacing[j]
-#             for l in 2:dihedralGrid
-#                 symmeterisedDihedrals::Vector{Float64} = [-1.7558466544600673, 3.04121561582463]
-#                 symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
-#                 grid::Vector{Float64} = equilibriumGrid + displacementVector
-#                 grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
-#                 grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 PrintGeometry(point, grid)
-#                 push!(grids, grid)
-#                 global point = point + 1
-#             end
-#         end
-#     end
-#     for j in 2:angleGrid
-#         displacementVector::Vector{Float64} = zeros(12)
-#         displacementVector[i] = angleSpacing[j]
-#         for l in 2:torsionGrid
-#             displacementVector[10] = torsionSpacing[l]
-#             displacementVector[11] = torsionSpacing[l]
-#             displacementVector[12] = torsionSpacing[l]
-#             grid::Vector{Float64} = equilibriumGrid + displacementVector
-#             grid[3] = EqCH(tauEq + torsionSpacing[l])
-#             grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-#             grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-#             grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-#             grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-#             grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
-#             PrintGeometry(point, grid)
-#             push!(grids, grid)
-#             global point = point + 1
-#         end
-#     end
-# end
-
-# for i in 10:11
-#     for k in i+1:11
-#         for j in 2:dihedralGrid
-#             displacementVector::Vector{Float64} = zeros(12)
-#             symmeterisedDihedrals::Vector{Float64} = [-1.7558466544600673, 3.04121561582463]
-#             symmeterisedDihedrals[i - 9] = symmeterisedDihedrals[i - 9] + dihedralSpacing[j]
-#             for l in 2:dihedralGrid
-#                 symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
-#                 grid::Vector{Float64} = equilibriumGrid + displacementVector
-#                 grid[10] = tauEq+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
-#                 grid[11] = 120.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 grid[12] = 240.0+tauEq-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#                 PrintGeometry(point, grid)
-#                 push!(grids, grid)
-#                 global point = point + 1
-#             end
-#         end
-#     end
-#     for j in 2:dihedralGrid
-#         displacementVector::Vector{Float64} = zeros(12)
-#         symmeterisedDihedrals::Vector{Float64} = [-1.7558466544600673, 3.04121561582463]
-#         symmeterisedDihedrals[i - 9] = symmeterisedDihedrals[i - 9] + dihedralSpacing[j]
-#         for l in 2:torsionGrid
-#             grid::Vector{Float64} = equilibriumGrid + displacementVector
-#             grid[3] = EqCH(tauEq + torsionSpacing[l])
-#             grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-#             grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-#             grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-#             grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-#             grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
-#             grid[10] = tauEq+torsionSpacing[l]+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
-#             grid[11] = 120.0+tauEq+torsionSpacing[l]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#             grid[12] = 240.0+tauEq+torsionSpacing[l]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
-#             PrintGeometry(point, grid)
-#             push!(grids, grid)
-#             global point = point + 1
-#         end
-#     end
-# end
+for i in 10:11
+    for k in i+1:11
+        for j in 2:dihedralGrid
+            displacementVector::Vector{Float64} = zeros(12)
+            symmeterisedDihedrals::Vector{Float64} = [SaEq, SbEq]
+            symmeterisedDihedrals[i - 9] = symmeterisedDihedrals[i - 9] + dihedralSpacing[j]
+            for l in 2:dihedralGrid
+                symmeterisedDihedrals[k - 9] = symmeterisedDihedrals[k - 9] + dihedralSpacing[l]
+                for n in 2:torsionGrid
+                    if j + l + n > maxDisplacements
+                        continue
+                    end
+                    grid::Vector{Float64} = equilibriumGrid + displacementVector
+                    grid[3] = EqCH(tauEq + torsionSpacing[n]) + displacementVector[3]
+                    grid[4] = EqCH(tauEq + torsionSpacing[n] + 120) + displacementVector[4]
+                    grid[5] = EqCH(tauEq + torsionSpacing[n] + 240) + displacementVector[5]
+                    grid[7] = EqaHCO(tauEq + torsionSpacing[n]) + displacementVector[7]
+                    grid[8] = EqaHCO(tauEq + torsionSpacing[n] + 120) + displacementVector[8]
+                    grid[9] = EqaHCO(tauEq + torsionSpacing[n] + 240) + displacementVector[9]
+                    grid[10] = tauEq+torsionSpacing[n]+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
+                    grid[11] = 120.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    grid[12] = 240.0+tauEq+torsionSpacing[n]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
+                    push!(grids, grid)
+                    PrintGeometry(point, grid)
+                    global point = point + 1
+                end
+            end
+        end
+    end
+end
