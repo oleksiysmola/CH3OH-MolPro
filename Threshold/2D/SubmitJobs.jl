@@ -1,5 +1,5 @@
-point::Int64 = 18809
-jobSplit::Int64 = 8
+point::Int64 = 18523
+jobSplit::Int64 = 7
 numberOfJobs::Int64 = 100
 
 for i in 1:numberOfJobs

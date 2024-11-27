@@ -53,12 +53,12 @@ aHH1eq::Float64=               61.43364279
 aHH2eq::Float64=              180.00000000
 aHH3eq::Float64=              298.56635721
 tauEq::Float64 = 60.00000
-rCH1eq::Float64=             EqCH(tauEq)         #1.09108970
-rCH2eq::Float64=             EqCH(tauEq + 120)   #1.08555104
-rCH3eq::Float64=             EqCH(tauEq + 240)    #1.09108970
-aOCH1eq::Float64=            EqaHCO(tauEq)        #111.95221297
-aOCH2eq::Float64=            EqaHCO(tauEq + 120)  #106.58134561
-aOCH3eq::Float64=            EqaHCO(tauEq + 240)  #111.95221297
+rCH1eq::Float64=             1.09108970   # EqCH(tauEq)          
+rCH2eq::Float64=             1.08555104   # EqCH(tauEq + 120)    
+rCH3eq::Float64=             1.09108970   # EqCH(tauEq + 240)    
+aOCH1eq::Float64=            111.95221297 # EqaHCO(tauEq)        
+aOCH2eq::Float64=            106.58134561 # EqaHCO(tauEq + 120)  
+aOCH3eq::Float64=            111.95221297 # EqaHCO(tauEq + 240)  
 equilibriumGrid::Vector{Float64} = [rCOeq, rOHeq, rCH1eq, rCH2eq, rCH3eq, aCOHeq, aOCH1eq, aOCH2eq, aOCH3eq, aHH1eq, aHH2eq, aHH3eq]
 
 function PrintGeometry(grid::Vector{Float64})
@@ -72,7 +72,7 @@ function SubmitJob(point::Int64, grid::Vector{Float64})
 end
 
 point::Int64 = 1
-# SubmitJob(point, equilibriumGrid)
+SubmitJob(point, equilibriumGrid)
 startPoint::Int64 = 1
 
 for i in 1:4
@@ -122,12 +122,12 @@ for j in 2:torsionGrid
     displacementVector[11] = torsionSpacing[j]
     displacementVector[12] = torsionSpacing[j]
     grid::Vector{Float64} = equilibriumGrid + displacementVector
-    grid[3] = EqCH(tauEq + torsionSpacing[j])
-    grid[4] = EqCH(tauEq + torsionSpacing[j] + 120)
-    grid[5] = EqCH(tauEq + torsionSpacing[j] + 240)
-    grid[7] = EqaHCO(tauEq + torsionSpacing[j])
-    grid[8] = EqaHCO(tauEq + torsionSpacing[j] + 120)
-    grid[9] = EqaHCO(tauEq + torsionSpacing[j] + 240)
+    # grid[3] = EqCH(tauEq + torsionSpacing[j])
+    # grid[4] = EqCH(tauEq + torsionSpacing[j] + 120)
+    # grid[5] = EqCH(tauEq + torsionSpacing[j] + 240)
+    # grid[7] = EqaHCO(tauEq + torsionSpacing[j])
+    # grid[8] = EqaHCO(tauEq + torsionSpacing[j] + 120)
+    # grid[9] = EqaHCO(tauEq + torsionSpacing[j] + 240)
     if point >= startPoint
         SubmitJob(point, grid)
     end

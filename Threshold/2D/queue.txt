@@ -1,709 +1,968 @@
 job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
 -----------------------------------------------------------------------------------------------------------------
-4718717 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00b-022.myriad.ucl.     1        
-4718718 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-218.myriad.ucl.     1        
-4718719 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-218.myriad.ucl.     1        
-4718720 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-100.myriad.ucl.     1        
-4718722 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-210.myriad.ucl.     1        
-4718723 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-210.myriad.ucl.     1        
-4718725 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-d00a-101.myriad.ucl.     1        
-4718726 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:28 Bran@node-h00a-027                 1        
-4718727 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:30 Bran@node-h00a-021                 1        
-4718728 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:30 Bran@node-h00a-021                 1        
-4718729 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:30 Bran@node-h00a-008                 1        
-4718730 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:30 Bran@node-h00a-020                 1        
-4718731 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:43:30 Bran@node-h00a-020                 1        
-4718732 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-044.myriad.ucl.     1        
-4718733 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-044.myriad.ucl.     1        
-4718734 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-103.myriad.ucl.     1        
-4718735 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-089.myriad.ucl.     1        
-4718736 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-076.myriad.ucl.     1        
-4718737 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-120.myriad.ucl.     1        
-4718739 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:47 Bran@node-d00a-127.myriad.ucl.     1        
-4718740 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:48 Bran@node-d00a-078.myriad.ucl.     1        
-4718741 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:48 Bran@node-d00a-078.myriad.ucl.     1        
-4718742 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:48 Bran@node-d00a-010                 1        
-4718743 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:50 Bran@node-d00a-010                 1        
-4718744 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:50 Bran@node-d00a-075.myriad.ucl.     1        
-4718745 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:50 Bran@node-d00a-075.myriad.ucl.     1        
-4718746 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:50 Bran@node-d00a-050.myriad.ucl.     1        
-4718747 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:51 Bran@node-d00a-224.myriad.ucl.     1        
-4718748 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:51 Bran@node-d00a-137.myriad.ucl.     1        
-4718749 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:49:51 Bran@node-d00a-137.myriad.ucl.     1        
-4718750 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:47 Bran@node-d00a-115.myriad.ucl.     1        
-4718751 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:47 Bran@node-d00a-219.myriad.ucl.     1        
-4718752 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:50 Bran@node-d00a-020                 1        
-4718754 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:50 Bran@node-d00a-159.myriad.ucl.     1        
-4718755 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:50 Bran@node-d00a-142.myriad.ucl.     1        
-4718756 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:50 Bran@node-d00a-142.myriad.ucl.     1        
-4718757 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:54:50 Bran@node-d00a-139.myriad.ucl.     1        
-4718758 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:45 Bran@node-h00a-009                 1        
-4718759 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:45 Bran@node-h00a-016                 1        
-4718760 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:46 Bran@node-h00a-016                 1        
-4718761 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:47 Bran@node-h00a-003                 1        
-4718762 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:47 Bran@node-h00a-014                 1        
-4718763 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:47 Bran@node-h00a-030                 1        
-4718764 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:48 Bran@node-h00a-006                 1        
-4718766 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:48 Bran@node-h00a-048                 1        
-4718767 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:48 Bran@node-h00a-013                 1        
-4718768 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:49 Bran@node-h00a-012                 1        
-4718769 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:49 Bran@node-h00a-017                 1        
-4718770 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:49 Bran@node-d00a-110.myriad.ucl.     1        
-4718771 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:49 Bran@node-d00a-087.myriad.ucl.     1        
-4718772 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:50 Bran@node-d00a-044.myriad.ucl.     1        
-4718773 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:50 Bran@node-d00a-089.myriad.ucl.     1        
-4718774 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:50 Bran@node-d00a-136.myriad.ucl.     1        
-4718775 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:51 Bran@node-d00a-076.myriad.ucl.     1        
-4718776 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:51 Bran@node-d00a-076.myriad.ucl.     1        
-4718778 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-155.myriad.ucl.     1        
-4718779 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-155.myriad.ucl.     1        
-4718780 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-061.myriad.ucl.     1        
-4718781 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-216.myriad.ucl.     1        
-4718782 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-111.myriad.ucl.     1        
-4718783 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:52 Bran@node-d00a-240.myriad.ucl.     1        
-4718784 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:53 Bran@node-d00a-240.myriad.ucl.     1        
-4718785 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:53 Bran@node-d00a-058.myriad.ucl.     1        
-4718786 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00a-219.myriad.ucl.     1        
-4718787 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00a-232.myriad.ucl.     1        
-4718788 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00b-022.myriad.ucl.     1        
-4718790 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00a-116.myriad.ucl.     1        
-4718791 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00a-116.myriad.ucl.     1        
-4718792 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:56:54 Bran@node-d00a-109.myriad.ucl.     1        
-4718793 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-156.myriad.ucl.     1        
-4718794 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-099.myriad.ucl.     1        
-4718795 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-099.myriad.ucl.     1        
-4718796 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-243.myriad.ucl.     1        
-4718797 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-127.myriad.ucl.     1        
-4718798 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:52 Bran@node-d00a-127.myriad.ucl.     1        
-4718799 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:53 Bran@node-d00a-221.myriad.ucl.     1        
-4718800 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:53 Bran@node-d00a-221.myriad.ucl.     1        
-4718801 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-058.myriad.ucl.     1        
-4718802 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-052.myriad.ucl.     1        
-4718804 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-116.myriad.ucl.     1        
-4718805 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-109.myriad.ucl.     1        
-4718806 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-109.myriad.ucl.     1        
-4718807 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-109.myriad.ucl.     1        
-4718808 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-222.myriad.ucl.     1        
-4718809 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-237.myriad.ucl.     1        
-4718810 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:54 Bran@node-d00a-237.myriad.ucl.     1        
-4718811 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:57 Bran@node-d00a-060.myriad.ucl.     1        
-4718812 2.01515 RunMolproJ zcaposm      r     10/29/2024 13:58:57 Bran@node-d00a-060.myriad.ucl.     1        
-4718813 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-h00a-019                 1        
-4718814 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-064.myriad.ucl.     1        
-4718816 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-216.myriad.ucl.     1        
-4718817 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-052.myriad.ucl.     1        
-4718818 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-074.myriad.ucl.     1        
-4718819 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-074.myriad.ucl.     1        
-4718820 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:55 Bran@node-d00a-066.myriad.ucl.     1        
-4718821 2.01515 RunMolproJ zcaposm      r     10/29/2024 14:00:56 Bran@node-d00a-046.myriad.ucl.     1        
-4718822 2.01158 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718823 2.01147 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718824 2.01136 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718825 2.01125 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718826 2.01115 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718827 2.01105 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718829 2.01094 RunMolproJ zcaposm      qw    10/29/2024 12:49:18                                    1        
-4718830 2.01085 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718831 2.01075 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718832 2.01065 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718833 2.01056 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718834 2.01047 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718835 2.01038 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718836 2.01029 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718837 2.01020 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718838 2.01012 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718839 2.01003 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718840 2.00995 RunMolproJ zcaposm      qw    10/29/2024 12:49:19                                    1        
-4718841 2.00987 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718843 2.00979 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718844 2.00971 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718845 2.00963 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718846 2.00956 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718847 2.00948 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718848 2.00941 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718849 2.00933 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718850 2.00926 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718851 2.00919 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718852 2.00912 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718853 2.00905 RunMolproJ zcaposm      qw    10/29/2024 12:49:20                                    1        
-4718854 2.00898 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718855 2.00892 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718857 2.00885 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718858 2.00879 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718859 2.00872 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718860 2.00866 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718861 2.00860 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718862 2.00854 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718863 2.00848 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718864 2.00842 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718865 2.00836 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718866 2.00830 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718867 2.00825 RunMolproJ zcaposm      qw    10/29/2024 12:49:21                                    1        
-4718868 2.00819 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718869 2.00813 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718871 2.00808 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718872 2.00803 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718873 2.00797 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718874 2.00792 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718875 2.00787 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718876 2.00782 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718877 2.00777 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718878 2.00772 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718879 2.00767 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718880 2.00762 RunMolproJ zcaposm      qw    10/29/2024 12:49:22                                    1        
-4718881 2.00757 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718882 2.00752 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718883 2.00748 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718885 2.00743 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718886 2.00739 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718887 2.00734 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718888 2.00730 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718889 2.00725 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718890 2.00721 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718891 2.00717 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718892 2.00712 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718893 2.00708 RunMolproJ zcaposm      qw    10/29/2024 12:49:23                                    1        
-4718894 2.00704 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718895 2.00700 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718896 2.00696 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718898 2.00692 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718899 2.00688 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718900 2.00684 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718901 2.00680 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718902 2.00676 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718903 2.00673 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718904 2.00669 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718905 2.00665 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718906 2.00662 RunMolproJ zcaposm      qw    10/29/2024 12:49:24                                    1        
-4718917 2.00658 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718918 2.00654 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718919 2.00651 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718920 2.00647 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718921 2.00644 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718922 2.00640 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718923 2.00637 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718924 2.00634 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718926 2.00630 RunMolproJ zcaposm      qw    10/29/2024 12:49:35                                    1        
-4718928 2.00627 RunMolproJ zcaposm      qw    10/29/2024 12:49:36                                    1        
-4718929 2.00624 RunMolproJ zcaposm      qw    10/29/2024 12:49:36                                    1        
-4718930 2.00621 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718931 2.00617 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718932 2.00614 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718933 2.00611 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718934 2.00608 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718935 2.00605 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718936 2.00602 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718937 2.00599 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718938 2.00596 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718939 2.00593 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718940 2.00590 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718942 2.00587 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718943 2.00584 RunMolproJ zcaposm      qw    10/29/2024 12:49:37                                    1        
-4718944 2.00582 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718945 2.00579 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718946 2.00576 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718947 2.00573 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718948 2.00571 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718949 2.00568 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718950 2.00565 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718951 2.00563 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718952 2.00560 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718953 2.00557 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718954 2.00555 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718956 2.00552 RunMolproJ zcaposm      qw    10/29/2024 12:49:38                                    1        
-4718957 2.00550 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718958 2.00547 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718959 2.00545 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718960 2.00542 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718961 2.00540 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718962 2.00537 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718963 2.00535 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718964 2.00533 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718965 2.00530 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718966 2.00528 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718967 2.00526 RunMolproJ zcaposm      qw    10/29/2024 12:49:39                                    1        
-4718969 2.00523 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718970 2.00521 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718971 2.00519 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718972 2.00517 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718973 2.00515 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718974 2.00512 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718975 2.00510 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718976 2.00508 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718977 2.00506 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718978 2.00504 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718979 2.00502 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718980 2.00500 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718981 2.00497 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718982 2.00495 RunMolproJ zcaposm      qw    10/29/2024 12:49:40                                    1        
-4718984 2.00493 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718985 2.00491 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718986 2.00489 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718987 2.00487 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718988 2.00485 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718989 2.00484 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718990 2.00482 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718991 2.00480 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718992 2.00478 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718993 2.00476 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718994 2.00474 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718995 2.00472 RunMolproJ zcaposm      qw    10/29/2024 12:49:41                                    1        
-4718997 2.00470 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4718998 2.00468 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4718999 2.00467 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719000 2.00465 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719001 2.00463 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719002 2.00461 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719003 2.00460 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719004 2.00458 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719005 2.00456 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719006 2.00454 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719007 2.00453 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719008 2.00451 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719009 2.00449 RunMolproJ zcaposm      qw    10/29/2024 12:49:42                                    1        
-4719010 2.00448 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719012 2.00446 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719013 2.00444 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719014 2.00443 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719015 2.00441 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719016 2.00439 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719017 2.00438 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719018 2.00436 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719019 2.00435 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719020 2.00433 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719021 2.00432 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719022 2.00430 RunMolproJ zcaposm      qw    10/29/2024 12:49:43                                    1        
-4719023 2.00428 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719024 2.00427 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719026 2.00425 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719027 2.00424 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719028 2.00422 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719029 2.00421 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719030 2.00419 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719031 2.00418 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719032 2.00417 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719033 2.00415 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719034 2.00414 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719035 2.00412 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719036 2.00411 RunMolproJ zcaposm      qw    10/29/2024 12:49:44                                    1        
-4719037 2.00410 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719038 2.00408 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719040 2.00407 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719041 2.00405 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719042 2.00404 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719043 2.00403 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719044 2.00401 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719045 2.00400 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719046 2.00399 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719047 2.00397 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719048 2.00396 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719049 2.00395 RunMolproJ zcaposm      qw    10/29/2024 12:49:45                                    1        
-4719050 2.00393 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719051 2.00392 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719052 2.00391 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719054 2.00390 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719055 2.00388 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719056 2.00387 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719057 2.00386 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719058 2.00385 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719059 2.00383 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719060 2.00382 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719061 2.00381 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719062 2.00380 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719063 2.00379 RunMolproJ zcaposm      qw    10/29/2024 12:49:46                                    1        
-4719064 2.00377 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719065 2.00376 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719066 2.00375 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719067 2.00374 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719069 2.00373 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719070 2.00372 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719071 2.00370 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719072 2.00369 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719073 2.00368 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719074 2.00367 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719075 2.00366 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719076 2.00365 RunMolproJ zcaposm      qw    10/29/2024 12:49:47                                    1        
-4719077 2.00364 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719078 2.00363 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719079 2.00362 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719080 2.00360 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719081 2.00359 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719083 2.00358 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719084 2.00357 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719085 2.00356 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719086 2.00355 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719087 2.00354 RunMolproJ zcaposm      qw    10/29/2024 12:49:48                                    1        
-4719088 2.00353 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719089 2.00352 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719090 2.00351 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719091 2.00350 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719092 2.00349 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719093 2.00348 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719094 2.00347 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719095 2.00346 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719097 2.00345 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719098 2.00344 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719099 2.00343 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719100 2.00342 RunMolproJ zcaposm      qw    10/29/2024 12:49:49                                    1        
-4719101 2.00341 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719102 2.00340 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719103 2.00339 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719104 2.00338 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719105 2.00337 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719106 2.00336 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719107 2.00335 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719108 2.00334 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719110 2.00334 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719111 2.00333 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719112 2.00332 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719113 2.00331 RunMolproJ zcaposm      qw    10/29/2024 12:49:50                                    1        
-4719114 2.00330 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719115 2.00329 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719116 2.00328 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719117 2.00327 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719118 2.00326 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719119 2.00325 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719120 2.00325 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719121 2.00324 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719122 2.00323 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719123 2.00322 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719125 2.00321 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719126 2.00320 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719127 2.00319 RunMolproJ zcaposm      qw    10/29/2024 12:49:51                                    1        
-4719128 2.00319 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719129 2.00318 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719130 2.00317 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719131 2.00316 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719132 2.00315 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719133 2.00314 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719134 2.00314 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719135 2.00313 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719137 2.00312 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719138 2.00311 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719139 2.00310 RunMolproJ zcaposm      qw    10/29/2024 12:49:52                                    1        
-4719140 2.00309 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719141 2.00309 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719142 2.00308 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719143 2.00307 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719144 2.00306 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719145 2.00306 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719146 2.00305 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719147 2.00304 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719148 2.00303 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719149 2.00302 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719151 2.00302 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719152 2.00301 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719153 2.00300 RunMolproJ zcaposm      qw    10/29/2024 12:49:53                                    1        
-4719154 2.00299 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719155 2.00299 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719156 2.00298 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719157 2.00297 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719158 2.00297 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719159 2.00296 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719160 2.00295 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719161 2.00294 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719162 2.00294 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719164 2.00293 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719165 2.00292 RunMolproJ zcaposm      qw    10/29/2024 12:49:54                                    1        
-4719171 2.00292 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719172 2.00291 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719173 2.00290 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719174 2.00289 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719175 2.00289 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719176 2.00288 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719177 2.00287 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719178 2.00287 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719179 2.00286 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719180 2.00285 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719181 2.00285 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719182 2.00284 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719183 2.00283 RunMolproJ zcaposm      qw    10/29/2024 12:50:00                                    1        
-4719185 2.00283 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719186 2.00282 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719187 2.00281 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719188 2.00281 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719189 2.00280 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719190 2.00279 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719191 2.00279 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719192 2.00278 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719193 2.00277 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719194 2.00277 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719195 2.00276 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719196 2.00276 RunMolproJ zcaposm      qw    10/29/2024 12:50:01                                    1        
-4719197 2.00275 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719199 2.00274 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719200 2.00274 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719201 2.00273 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719202 2.00272 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719203 2.00272 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719204 2.00271 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719205 2.00271 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719206 2.00270 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719207 2.00269 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719208 2.00269 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719209 2.00268 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719210 2.00268 RunMolproJ zcaposm      qw    10/29/2024 12:50:02                                    1        
-4719211 2.00267 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719212 2.00266 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719213 2.00266 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719214 2.00265 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719215 2.00265 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719216 2.00264 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719217 2.00263 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719218 2.00263 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719219 2.00262 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719220 2.00262 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719221 2.00261 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719222 2.00261 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719223 2.00260 RunMolproJ zcaposm      qw    10/29/2024 12:50:03                                    1        
-4719224 2.00259 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719225 2.00259 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719226 2.00258 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719227 2.00258 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719228 2.00257 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719229 2.00257 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719230 2.00256 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719231 2.00256 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719232 2.00255 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719233 2.00255 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719234 2.00254 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719235 2.00253 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719236 2.00253 RunMolproJ zcaposm      qw    10/29/2024 12:50:04                                    1        
-4719237 2.00252 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719238 2.00252 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719239 2.00251 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719240 2.00251 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719241 2.00250 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719242 2.00250 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719243 2.00249 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719244 2.00249 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719245 2.00248 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719246 2.00248 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719247 2.00247 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719248 2.00247 RunMolproJ zcaposm      qw    10/29/2024 12:50:05                                    1        
-4719249 2.00246 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719250 2.00246 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719251 2.00245 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719252 2.00245 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719253 2.00244 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719254 2.00244 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719255 2.00243 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719256 2.00243 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719257 2.00242 RunMolproJ zcaposm      qw    10/29/2024 12:50:06                                    1        
-4719258 2.00242 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719259 2.00241 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719260 2.00241 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719261 2.00240 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719262 2.00240 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719263 2.00239 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719264 2.00239 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719265 2.00238 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719266 2.00238 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719267 2.00237 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719268 2.00237 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719269 2.00237 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719270 2.00236 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719271 2.00236 RunMolproJ zcaposm      qw    10/29/2024 12:50:07                                    1        
-4719272 2.00235 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719274 2.00235 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719275 2.00234 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719276 2.00234 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719277 2.00233 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719278 2.00233 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719279 2.00232 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719280 2.00232 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719281 2.00232 RunMolproJ zcaposm      qw    10/29/2024 12:50:08                                    1        
-4719282 2.00231 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719283 2.00231 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719285 2.00230 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719286 2.00230 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719287 2.00229 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719288 2.00229 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719289 2.00228 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719290 2.00228 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719291 2.00228 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719292 2.00227 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719293 2.00227 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719294 2.00226 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719295 2.00226 RunMolproJ zcaposm      qw    10/29/2024 12:50:09                                    1        
-4719296 2.00225 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719297 2.00225 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719298 2.00225 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719300 2.00224 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719301 2.00224 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719302 2.00223 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719303 2.00223 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719304 2.00223 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719305 2.00222 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719306 2.00222 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719307 2.00221 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719308 2.00221 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719309 2.00221 RunMolproJ zcaposm      qw    10/29/2024 12:50:10                                    1        
-4719310 2.00220 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719311 2.00220 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719312 2.00219 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719314 2.00219 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719315 2.00219 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719316 2.00218 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719317 2.00218 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719318 2.00217 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719319 2.00217 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719320 2.00217 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719321 2.00216 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719322 2.00216 RunMolproJ zcaposm      qw    10/29/2024 12:50:11                                    1        
-4719323 2.00215 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719324 2.00215 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719325 2.00215 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719326 2.00214 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719328 2.00214 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719329 2.00213 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719330 2.00213 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719331 2.00213 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719332 2.00212 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719333 2.00212 RunMolproJ zcaposm      qw    10/29/2024 12:50:12                                    1        
-4719344 2.00212 RunMolproJ zcaposm      qw    10/29/2024 12:50:22                                    1        
-4719345 2.00211 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719346 2.00211 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719347 2.00210 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719348 2.00210 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719349 2.00210 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719350 2.00209 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719351 2.00209 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719352 2.00209 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719354 2.00208 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719355 2.00208 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719356 2.00208 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719357 2.00207 RunMolproJ zcaposm      qw    10/29/2024 12:50:23                                    1        
-4719358 2.00207 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719359 2.00207 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719360 2.00206 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719361 2.00206 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719362 2.00205 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719363 2.00205 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719364 2.00205 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719365 2.00204 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719366 2.00204 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719367 2.00204 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719369 2.00203 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719370 2.00203 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719371 2.00203 RunMolproJ zcaposm      qw    10/29/2024 12:50:24                                    1        
-4719372 2.00202 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719373 2.00202 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719374 2.00202 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719375 2.00201 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719376 2.00201 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719377 2.00201 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719378 2.00200 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719379 2.00200 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719380 2.00200 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719382 2.00199 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719383 2.00199 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719384 2.00199 RunMolproJ zcaposm      qw    10/29/2024 12:50:25                                    1        
-4719385 2.00198 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719386 2.00198 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719387 2.00198 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719388 2.00197 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719389 2.00197 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719390 2.00197 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719391 2.00196 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719392 2.00196 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719393 2.00196 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719394 2.00195 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719396 2.00195 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719397 2.00195 RunMolproJ zcaposm      qw    10/29/2024 12:50:26                                    1        
-4719398 2.00194 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719399 2.00194 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719400 2.00194 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719401 2.00194 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719402 2.00193 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719403 2.00193 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719404 2.00193 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719405 2.00192 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719406 2.00192 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719407 2.00192 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719408 2.00191 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719410 2.00191 RunMolproJ zcaposm      qw    10/29/2024 12:50:27                                    1        
-4719411 2.00191 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719412 2.00190 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719413 2.00190 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719414 2.00190 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719415 2.00190 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719416 2.00189 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719417 2.00189 RunMolproJ zcaposm      qw    10/29/2024 12:50:28                                    1        
-4719420 2.00189 RunMolproJ zcaposm      qw    10/29/2024 12:50:33                                    1        
-4719421 2.00188 RunMolproJ zcaposm      qw    10/29/2024 12:50:33                                    1        
-4719422 2.00188 RunMolproJ zcaposm      qw    10/29/2024 12:50:33                                    1        
-4719423 2.00188 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719424 2.00188 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719425 2.00187 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719426 2.00187 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719427 2.00187 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719428 2.00186 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719429 2.00186 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719430 2.00186 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719431 2.00186 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719432 2.00185 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719433 2.00185 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719434 2.00185 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719435 2.00184 RunMolproJ zcaposm      qw    10/29/2024 12:50:34                                    1        
-4719436 2.00184 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719437 2.00184 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719438 2.00184 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719439 2.00183 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719440 2.00183 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719441 2.00183 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719442 2.00182 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719443 2.00182 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719444 2.00182 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719445 2.00182 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719446 2.00181 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719447 2.00181 RunMolproJ zcaposm      qw    10/29/2024 12:50:35                                    1        
-4719449 2.00181 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719450 2.00181 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719451 2.00180 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719452 2.00180 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719453 2.00180 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719454 2.00179 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719455 2.00179 RunMolproJ zcaposm      qw    10/29/2024 12:50:36                                    1        
-4719456 2.00179 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719457 2.00179 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719458 2.00178 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719459 2.00178 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719461 2.00178 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719462 2.00178 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719463 2.00177 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719464 2.00177 RunMolproJ zcaposm      qw    10/29/2024 12:50:37                                    1        
-4719465 2.00177 RunMolproJ zcaposm      qw    10/29/2024 12:50:38                                    1        
-4719466 2.00177 RunMolproJ zcaposm      qw    10/29/2024 12:50:38                                    1        
-4719467 2.00176 RunMolproJ zcaposm      qw    10/29/2024 12:50:38                                    1        
-4719473 2.00176 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719474 2.00176 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719475 2.00176 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719476 2.00175 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719477 2.00175 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719478 2.00175 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719479 2.00174 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719480 2.00174 RunMolproJ zcaposm      qw    10/29/2024 12:50:43                                    1        
-4719481 2.00174 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719483 2.00174 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719484 2.00173 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719485 2.00173 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719486 2.00173 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719487 2.00173 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719488 2.00172 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719489 2.00172 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719490 2.00172 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719491 2.00172 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719492 2.00172 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719493 2.00171 RunMolproJ zcaposm      qw    10/29/2024 12:50:44                                    1        
-4719494 2.00171 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719495 2.00171 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719497 2.00171 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719498 2.00170 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719499 2.00170 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719500 2.00170 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719501 2.00170 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719502 2.00169 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719503 2.00169 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719504 2.00169 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
-4719505 2.00169 RunMolproJ zcaposm      qw    10/29/2024 12:50:45                                    1        
+ 416494 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:38:47 Bran@node-d00a-130.myriad.ucl.     1        
+ 416497 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:38:47 Bran@node-d00a-216.myriad.ucl.     1        
+ 416498 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:38:47 Bran@node-d00a-068.myriad.ucl.     1        
+ 416499 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:38:47 Bran@node-d00a-039                 1        
+ 416500 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-155.myriad.ucl.     1        
+ 416501 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-157.myriad.ucl.     1        
+ 416502 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-236.myriad.ucl.     1        
+ 416503 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-057.myriad.ucl.     1        
+ 416504 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-074.myriad.ucl.     1        
+ 416505 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00b-019.myriad.ucl.     1        
+ 416506 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-045.myriad.ucl.     1        
+ 416507 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:27 Bran@node-d00a-053.myriad.ucl.     1        
+ 416508 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-116.myriad.ucl.     1        
+ 416509 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-222.myriad.ucl.     1        
+ 416510 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-252.myriad.ucl.     1        
+ 416511 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-244.myriad.ucl.     1        
+ 416512 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00b-027.myriad.ucl.     1        
+ 416513 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-107.myriad.ucl.     1        
+ 416514 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:28 Bran@node-d00a-121.myriad.ucl.     1        
+ 416515 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00b-010.myriad.ucl.     1        
+ 416516 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00a-111.myriad.ucl.     1        
+ 416517 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00a-112.myriad.ucl.     1        
+ 416518 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00a-215.myriad.ucl.     1        
+ 416519 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00b-015.myriad.ucl.     1        
+ 416520 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:29 Bran@node-d00b-018.myriad.ucl.     1        
+ 416521 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:30 Bran@node-d00a-159.myriad.ucl.     1        
+ 416522 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:30 Bran@node-h00a-009                 1        
+ 416523 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:43:30 Bran@node-h00a-004                 1        
+ 416524 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:31 Bran@node-d00a-165.myriad.ucl.     1        
+ 416525 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:31 Bran@node-d00a-012                 1        
+ 416526 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:32 Bran@node-d00a-029                 1        
+ 416527 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:32 Bran@node-d00a-069.myriad.ucl.     1        
+ 416528 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-112.myriad.ucl.     1        
+ 416529 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-007                 1        
+ 416530 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-007                 1        
+ 416531 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-210.myriad.ucl.     1        
+ 416532 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-246.myriad.ucl.     1        
+ 416533 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-024                 1        
+ 416534 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-030                 1        
+ 416535 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:33 Bran@node-d00a-060.myriad.ucl.     1        
+ 416536 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:34 Bran@node-d00a-227.myriad.ucl.     1        
+ 416537 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:34 Bran@node-d00a-058.myriad.ucl.     1        
+ 416538 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:34 Bran@node-d00a-136.myriad.ucl.     1        
+ 416539 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:35 Bran@node-d00a-234.myriad.ucl.     1        
+ 416540 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:35 Bran@node-d00a-036                 1        
+ 416541 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:35 Bran@node-d00a-010                 1        
+ 416542 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:35 Bran@node-d00a-010                 1        
+ 416543 2.03000 RunMolproJ zcaposm      r     11/21/2024 16:49:36 Bran@node-h00a-039                 1        
+ 416544 2.02062 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416545 2.02029 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416546 2.01997 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416547 2.01966 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416548 2.01935 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416549 2.01906 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416550 2.01878 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416551 2.01850 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416552 2.01823 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416553 2.01797 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416554 2.01772 RunMolproJ zcaposm      qw    11/21/2024 13:17:44                                    1        
+ 416555 2.01747 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416556 2.01723 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416557 2.01700 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416558 2.01677 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416559 2.01655 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416560 2.01634 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416561 2.01613 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416562 2.01592 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416563 2.01573 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416564 2.01553 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416565 2.01534 RunMolproJ zcaposm      qw    11/21/2024 13:17:45                                    1        
+ 416566 2.01516 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416567 2.01498 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416568 2.01480 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416569 2.01463 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416570 2.01446 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416571 2.01430 RunMolproJ zcaposm      qw    11/21/2024 13:17:46                                    1        
+ 416572 2.01414 RunMolproJ zcaposm      qw    11/21/2024 13:17:51                                    1        
+ 416573 2.01398 RunMolproJ zcaposm      qw    11/21/2024 13:17:52                                    1        
+ 416574 2.01382 RunMolproJ zcaposm      qw    11/21/2024 13:17:52                                    1        
+ 416575 2.01367 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416576 2.01353 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416577 2.01338 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416578 2.01324 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416579 2.01310 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416580 2.01297 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416581 2.01284 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416582 2.01271 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416583 2.01258 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416584 2.01246 RunMolproJ zcaposm      qw    11/21/2024 13:17:53                                    1        
+ 416585 2.01233 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416586 2.01221 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416587 2.01210 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416588 2.01198 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416589 2.01187 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416590 2.01176 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416591 2.01165 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416592 2.01154 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416593 2.01144 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416594 2.01133 RunMolproJ zcaposm      qw    11/21/2024 13:17:54                                    1        
+ 416595 2.01123 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416596 2.01113 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416597 2.01104 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416598 2.01094 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416599 2.01085 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416600 2.01075 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416601 2.01066 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416602 2.01057 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416603 2.01048 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416604 2.01040 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416605 2.01031 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416606 2.01023 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416607 2.01015 RunMolproJ zcaposm      qw    11/21/2024 13:17:55                                    1        
+ 416608 2.01006 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416609 2.00998 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416610 2.00991 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416611 2.00983 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416612 2.00975 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416613 2.00968 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416614 2.00960 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416615 2.00953 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416616 2.00946 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416617 2.00939 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416618 2.00932 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416619 2.00925 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416620 2.00918 RunMolproJ zcaposm      qw    11/21/2024 13:17:56                                    1        
+ 416621 2.00912 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416622 2.00905 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416623 2.00899 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416624 2.00892 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416625 2.00886 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416626 2.00880 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416627 2.00874 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416628 2.00868 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416629 2.00862 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416630 2.00856 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416631 2.00850 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416632 2.00844 RunMolproJ zcaposm      qw    11/21/2024 13:17:57                                    1        
+ 416633 2.00839 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416634 2.00833 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416635 2.00828 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416636 2.00822 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416637 2.00817 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416638 2.00812 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416639 2.00806 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416640 2.00801 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416641 2.00796 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416642 2.00791 RunMolproJ zcaposm      qw    11/21/2024 13:17:58                                    1        
+ 416643 2.00786 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416644 2.00781 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416645 2.00777 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416646 2.00772 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416647 2.00767 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416648 2.00762 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416649 2.00758 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416650 2.00753 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416651 2.00749 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416652 2.00744 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416653 2.00740 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416654 2.00736 RunMolproJ zcaposm      qw    11/21/2024 13:17:59                                    1        
+ 416655 2.00731 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416656 2.00727 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416657 2.00723 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416658 2.00719 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416659 2.00715 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416660 2.00711 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416661 2.00707 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416662 2.00703 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416663 2.00699 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416664 2.00695 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416665 2.00691 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416666 2.00687 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416667 2.00684 RunMolproJ zcaposm      qw    11/21/2024 13:18:00                                    1        
+ 416668 2.00680 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416669 2.00676 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416670 2.00673 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416671 2.00669 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416672 2.00666 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416673 2.00662 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416674 2.00659 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416675 2.00655 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416676 2.00652 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416677 2.00648 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416678 2.00645 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416679 2.00642 RunMolproJ zcaposm      qw    11/21/2024 13:18:01                                    1        
+ 416680 2.00639 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416681 2.00635 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416682 2.00632 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416683 2.00629 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416684 2.00626 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416685 2.00623 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416686 2.00620 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416687 2.00617 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416688 2.00614 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416689 2.00611 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416690 2.00608 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416691 2.00605 RunMolproJ zcaposm      qw    11/21/2024 13:18:02                                    1        
+ 416692 2.00602 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416693 2.00599 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416694 2.00596 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416695 2.00593 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416696 2.00591 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416697 2.00588 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416698 2.00585 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416699 2.00582 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416700 2.00580 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416701 2.00577 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416702 2.00574 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416703 2.00572 RunMolproJ zcaposm      qw    11/21/2024 13:18:03                                    1        
+ 416704 2.00569 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416705 2.00567 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416706 2.00564 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416707 2.00562 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416708 2.00559 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416709 2.00557 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416710 2.00554 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416711 2.00552 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416712 2.00549 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416713 2.00547 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416714 2.00545 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416715 2.00542 RunMolproJ zcaposm      qw    11/21/2024 13:18:04                                    1        
+ 416716 2.00540 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416717 2.00538 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416718 2.00535 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416719 2.00533 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416720 2.00531 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416721 2.00529 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416722 2.00526 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416723 2.00524 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416724 2.00522 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416725 2.00520 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416726 2.00518 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416727 2.00516 RunMolproJ zcaposm      qw    11/21/2024 13:18:05                                    1        
+ 416728 2.00513 RunMolproJ zcaposm      qw    11/21/2024 13:18:11                                    1        
+ 416729 2.00511 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416730 2.00509 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416731 2.00507 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416733 2.00505 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416734 2.00503 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416735 2.00501 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416736 2.00499 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416737 2.00497 RunMolproJ zcaposm      qw    11/21/2024 13:18:12                                    1        
+ 416738 2.00495 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416739 2.00493 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416740 2.00491 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416741 2.00490 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416742 2.00488 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416743 2.00486 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416744 2.00484 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416745 2.00482 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416746 2.00480 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416747 2.00478 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416748 2.00477 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416749 2.00475 RunMolproJ zcaposm      qw    11/21/2024 13:18:13                                    1        
+ 416750 2.00473 RunMolproJ zcaposm      qw    11/21/2024 13:18:14                                    1        
+ 416751 2.00471 RunMolproJ zcaposm      qw    11/21/2024 13:18:14                                    1        
+ 416752 2.00469 RunMolproJ zcaposm      qw    11/21/2024 13:18:14                                    1        
+ 416753 2.00468 RunMolproJ zcaposm      qw    11/21/2024 13:18:14                                    1        
+ 416754 2.00466 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416755 2.00464 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416756 2.00463 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416757 2.00461 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416758 2.00459 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416759 2.00457 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416760 2.00456 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416761 2.00454 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416762 2.00453 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416763 2.00451 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416764 2.00449 RunMolproJ zcaposm      qw    11/21/2024 13:18:15                                    1        
+ 416765 2.00448 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416766 2.00446 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416767 2.00445 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416768 2.00443 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416769 2.00441 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416770 2.00440 RunMolproJ zcaposm      qw    11/21/2024 13:18:16                                    1        
+ 416771 2.00438 RunMolproJ zcaposm      qw    11/21/2024 13:18:17                                    1        
+ 416772 2.00437 RunMolproJ zcaposm      qw    11/21/2024 13:18:17                                    1        
+ 416773 2.00435 RunMolproJ zcaposm      qw    11/21/2024 13:18:17                                    1        
+ 416774 2.00434 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416775 2.00432 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416776 2.00431 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416777 2.00429 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416778 2.00428 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416779 2.00426 RunMolproJ zcaposm      qw    11/21/2024 13:18:18                                    1        
+ 416780 2.00425 RunMolproJ zcaposm      qw    11/21/2024 13:18:19                                    1        
+ 416781 2.00424 RunMolproJ zcaposm      qw    11/21/2024 13:18:19                                    1        
+ 416782 2.00422 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416783 2.00421 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416784 2.00419 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416785 2.00418 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416786 2.00417 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416787 2.00415 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416788 2.00414 RunMolproJ zcaposm      qw    11/21/2024 13:18:20                                    1        
+ 416790 2.00412 RunMolproJ zcaposm      qw    11/21/2024 13:18:30                                    1        
+ 416791 2.00411 RunMolproJ zcaposm      qw    11/21/2024 13:18:30                                    1        
+ 416792 2.00410 RunMolproJ zcaposm      qw    11/21/2024 13:18:30                                    1        
+ 416793 2.00408 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416794 2.00407 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416795 2.00406 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416796 2.00405 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416797 2.00403 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416798 2.00402 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416799 2.00401 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416800 2.00399 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416801 2.00398 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416802 2.00397 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416803 2.00396 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416804 2.00394 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416805 2.00393 RunMolproJ zcaposm      qw    11/21/2024 13:18:31                                    1        
+ 416806 2.00392 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416807 2.00391 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416808 2.00389 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416809 2.00388 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416810 2.00387 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416811 2.00386 RunMolproJ zcaposm      qw    11/21/2024 13:18:32                                    1        
+ 416812 2.00385 RunMolproJ zcaposm      qw    11/21/2024 13:18:33                                    1        
+ 416813 2.00384 RunMolproJ zcaposm      qw    11/21/2024 13:18:33                                    1        
+ 416814 2.00382 RunMolproJ zcaposm      qw    11/21/2024 13:18:33                                    1        
+ 416815 2.00381 RunMolproJ zcaposm      qw    11/21/2024 13:18:33                                    1        
+ 416816 2.00380 RunMolproJ zcaposm      qw    11/21/2024 13:18:34                                    1        
+ 416817 2.00379 RunMolproJ zcaposm      qw    11/21/2024 13:18:36                                    1        
+ 416818 2.00378 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416819 2.00377 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416820 2.00376 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416821 2.00374 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416822 2.00373 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416823 2.00372 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416824 2.00371 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416825 2.00370 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416826 2.00369 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416827 2.00368 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416828 2.00367 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416829 2.00366 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416830 2.00365 RunMolproJ zcaposm      qw    11/21/2024 13:18:37                                    1        
+ 416831 2.00364 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416832 2.00363 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416833 2.00362 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416834 2.00360 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416835 2.00359 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416836 2.00358 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416837 2.00357 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416838 2.00356 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416839 2.00355 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416840 2.00354 RunMolproJ zcaposm      qw    11/21/2024 13:18:38                                    1        
+ 416841 2.00353 RunMolproJ zcaposm      qw    11/21/2024 13:18:39                                    1        
+ 416842 2.00352 RunMolproJ zcaposm      qw    11/21/2024 13:18:39                                    1        
+ 416843 2.00351 RunMolproJ zcaposm      qw    11/21/2024 13:18:39                                    1        
+ 416844 2.00350 RunMolproJ zcaposm      qw    11/21/2024 13:18:44                                    1        
+ 416845 2.00349 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416846 2.00348 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416847 2.00348 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416848 2.00347 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416849 2.00346 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416850 2.00345 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416851 2.00344 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416852 2.00343 RunMolproJ zcaposm      qw    11/21/2024 13:18:49                                    1        
+ 416853 2.00342 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416854 2.00341 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416855 2.00340 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416856 2.00339 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416857 2.00338 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416858 2.00337 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416859 2.00336 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416860 2.00335 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416861 2.00335 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416862 2.00334 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416863 2.00333 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416864 2.00332 RunMolproJ zcaposm      qw    11/21/2024 13:18:50                                    1        
+ 416865 2.00331 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416866 2.00330 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416867 2.00329 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416868 2.00328 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416869 2.00328 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416870 2.00327 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416871 2.00326 RunMolproJ zcaposm      qw    11/21/2024 13:18:51                                    1        
+ 416872 2.00325 RunMolproJ zcaposm      qw    11/21/2024 13:18:52                                    1        
+ 416873 2.00324 RunMolproJ zcaposm      qw    11/21/2024 13:18:52                                    1        
+ 416874 2.00323 RunMolproJ zcaposm      qw    11/21/2024 13:18:52                                    1        
+ 416875 2.00323 RunMolproJ zcaposm      qw    11/21/2024 13:18:52                                    1        
+ 416876 2.00322 RunMolproJ zcaposm      qw    11/21/2024 13:18:52                                    1        
+ 416877 2.00321 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416878 2.00320 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416879 2.00319 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416880 2.00318 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416881 2.00318 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416882 2.00317 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416883 2.00316 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416884 2.00315 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416885 2.00315 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416886 2.00314 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416887 2.00313 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416888 2.00312 RunMolproJ zcaposm      qw    11/21/2024 13:18:53                                    1        
+ 416889 2.00311 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416890 2.00311 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416891 2.00310 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416892 2.00309 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416893 2.00308 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416894 2.00308 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416895 2.00307 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416896 2.00306 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416897 2.00305 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416898 2.00305 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416899 2.00304 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416900 2.00303 RunMolproJ zcaposm      qw    11/21/2024 13:18:54                                    1        
+ 416901 2.00302 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416902 2.00302 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416903 2.00301 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416904 2.00300 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416905 2.00300 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416906 2.00299 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416907 2.00298 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416908 2.00297 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416909 2.00297 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416910 2.00296 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416911 2.00295 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416912 2.00295 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416913 2.00294 RunMolproJ zcaposm      qw    11/21/2024 13:18:55                                    1        
+ 416914 2.00293 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416915 2.00293 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416916 2.00292 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416917 2.00291 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416918 2.00291 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416919 2.00290 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416920 2.00289 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416921 2.00289 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416922 2.00288 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416923 2.00287 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416924 2.00287 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416925 2.00286 RunMolproJ zcaposm      qw    11/21/2024 13:18:56                                    1        
+ 416926 2.00285 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416927 2.00285 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416928 2.00284 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416929 2.00283 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416930 2.00283 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416931 2.00282 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416932 2.00281 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416933 2.00281 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416934 2.00280 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416935 2.00280 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416936 2.00279 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416937 2.00278 RunMolproJ zcaposm      qw    11/21/2024 13:18:57                                    1        
+ 416938 2.00278 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416939 2.00277 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416940 2.00276 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416941 2.00276 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416942 2.00275 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416943 2.00275 RunMolproJ zcaposm      qw    11/21/2024 13:18:58                                    1        
+ 416944 2.00274 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 416945 2.00273 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 416946 2.00273 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 416947 2.00272 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 416948 2.00272 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 416949 2.00271 RunMolproJ zcaposm      qw    11/21/2024 13:18:59                                    1        
+ 417649 2.00271 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417650 2.00270 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417651 2.00269 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417652 2.00269 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417653 2.00268 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417654 2.00268 RunMolproJ zcaposm      qw    11/21/2024 14:01:17                                    1        
+ 417655 2.00267 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417656 2.00267 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417657 2.00266 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417658 2.00265 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417659 2.00265 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417660 2.00264 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417661 2.00264 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417662 2.00263 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417663 2.00263 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417664 2.00262 RunMolproJ zcaposm      qw    11/21/2024 14:01:18                                    1        
+ 417665 2.00262 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417666 2.00261 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417667 2.00260 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417668 2.00260 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417669 2.00259 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417670 2.00259 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417671 2.00258 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417672 2.00258 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417673 2.00257 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417674 2.00257 RunMolproJ zcaposm      qw    11/21/2024 14:01:19                                    1        
+ 417675 2.00256 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417676 2.00256 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417677 2.00255 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417678 2.00255 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417679 2.00254 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417680 2.00254 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417681 2.00253 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417682 2.00253 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417683 2.00252 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417684 2.00252 RunMolproJ zcaposm      qw    11/21/2024 14:01:20                                    1        
+ 417685 2.00251 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417686 2.00251 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417687 2.00250 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417688 2.00250 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417689 2.00249 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417690 2.00249 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417691 2.00248 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417692 2.00248 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417693 2.00247 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417694 2.00247 RunMolproJ zcaposm      qw    11/21/2024 14:01:21                                    1        
+ 417695 2.00246 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417696 2.00246 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417697 2.00245 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417698 2.00245 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417699 2.00244 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417700 2.00244 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417701 2.00243 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417702 2.00243 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417703 2.00242 RunMolproJ zcaposm      qw    11/21/2024 14:01:22                                    1        
+ 417704 2.00242 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417705 2.00241 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417706 2.00241 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417707 2.00241 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417708 2.00240 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417709 2.00240 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417710 2.00239 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417711 2.00239 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417712 2.00238 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417713 2.00238 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417714 2.00237 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417715 2.00237 RunMolproJ zcaposm      qw    11/21/2024 14:01:23                                    1        
+ 417716 2.00236 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417717 2.00236 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417718 2.00236 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417719 2.00235 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417720 2.00235 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417721 2.00234 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417722 2.00234 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417723 2.00233 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417724 2.00233 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417725 2.00233 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417726 2.00232 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417727 2.00232 RunMolproJ zcaposm      qw    11/21/2024 14:01:24                                    1        
+ 417728 2.00231 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417729 2.00231 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417730 2.00230 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417731 2.00230 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417732 2.00230 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417733 2.00229 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417734 2.00229 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417735 2.00228 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417736 2.00228 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417737 2.00227 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417738 2.00227 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417739 2.00227 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417740 2.00226 RunMolproJ zcaposm      qw    11/21/2024 14:01:25                                    1        
+ 417741 2.00226 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417742 2.00225 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417743 2.00225 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417744 2.00225 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417745 2.00224 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417746 2.00224 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417747 2.00223 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417748 2.00223 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417749 2.00223 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417750 2.00222 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417751 2.00222 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417752 2.00221 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417753 2.00221 RunMolproJ zcaposm      qw    11/21/2024 14:01:26                                    1        
+ 417754 2.00221 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417755 2.00220 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417756 2.00220 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417757 2.00220 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417758 2.00219 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417759 2.00219 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417760 2.00218 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417761 2.00218 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417762 2.00218 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417763 2.00217 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417764 2.00217 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417765 2.00217 RunMolproJ zcaposm      qw    11/21/2024 14:01:27                                    1        
+ 417766 2.00216 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417767 2.00216 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417768 2.00215 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417769 2.00215 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417770 2.00215 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417771 2.00214 RunMolproJ zcaposm      qw    11/21/2024 14:01:28                                    1        
+ 417772 2.00214 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417773 2.00214 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417774 2.00213 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417775 2.00213 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417776 2.00213 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417777 2.00212 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417778 2.00212 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417779 2.00211 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417780 2.00211 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417781 2.00211 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417782 2.00210 RunMolproJ zcaposm      qw    11/21/2024 14:01:29                                    1        
+ 417783 2.00210 RunMolproJ zcaposm      qw    11/21/2024 14:01:30                                    1        
+ 417784 2.00210 RunMolproJ zcaposm      qw    11/21/2024 14:01:30                                    1        
+ 417785 2.00209 RunMolproJ zcaposm      qw    11/21/2024 14:01:30                                    1        
+ 418037 2.00209 RunMolproJ zcaposm      qw    11/21/2024 14:40:53                                    1        
+ 418038 2.00209 RunMolproJ zcaposm      qw    11/21/2024 14:40:53                                    1        
+ 418039 2.00208 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418040 2.00208 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418041 2.00208 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418042 2.00207 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418043 2.00207 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418044 2.00207 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418045 2.00206 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418046 2.00206 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418047 2.00206 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418048 2.00205 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418049 2.00205 RunMolproJ zcaposm      qw    11/21/2024 14:40:54                                    1        
+ 418050 2.00205 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418051 2.00204 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418052 2.00204 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418053 2.00204 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418054 2.00203 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418055 2.00203 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418056 2.00203 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418057 2.00202 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418058 2.00202 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418059 2.00202 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418060 2.00201 RunMolproJ zcaposm      qw    11/21/2024 14:40:55                                    1        
+ 418061 2.00201 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418062 2.00201 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418063 2.00200 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418064 2.00200 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418065 2.00200 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418066 2.00199 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418067 2.00199 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418068 2.00199 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418069 2.00198 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418070 2.00198 RunMolproJ zcaposm      qw    11/21/2024 14:40:56                                    1        
+ 418071 2.00198 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418072 2.00197 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418073 2.00197 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418074 2.00197 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418075 2.00197 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418076 2.00196 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418077 2.00196 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418078 2.00196 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418079 2.00195 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418080 2.00195 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418081 2.00195 RunMolproJ zcaposm      qw    11/21/2024 14:40:57                                    1        
+ 418082 2.00194 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418083 2.00194 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418084 2.00194 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418085 2.00194 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418086 2.00193 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418087 2.00193 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418088 2.00193 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418089 2.00192 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418090 2.00192 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418091 2.00192 RunMolproJ zcaposm      qw    11/21/2024 14:40:58                                    1        
+ 418092 2.00191 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418093 2.00191 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418094 2.00191 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418095 2.00191 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418096 2.00190 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418097 2.00190 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418098 2.00190 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418099 2.00189 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418100 2.00189 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418101 2.00189 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418102 2.00189 RunMolproJ zcaposm      qw    11/21/2024 14:40:59                                    1        
+ 418103 2.00188 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418104 2.00188 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418105 2.00188 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418106 2.00187 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418107 2.00187 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418108 2.00187 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418109 2.00187 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418110 2.00186 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418111 2.00186 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418113 2.00186 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418114 2.00186 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418115 2.00185 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418116 2.00185 RunMolproJ zcaposm      qw    11/21/2024 14:41:00                                    1        
+ 418118 2.00185 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418120 2.00184 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418122 2.00184 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418123 2.00184 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418124 2.00184 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418125 2.00183 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418126 2.00183 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418127 2.00183 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418128 2.00183 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418129 2.00182 RunMolproJ zcaposm      qw    11/21/2024 14:41:01                                    1        
+ 418484 2.00182 RunMolproJ zcaposm      qw    11/21/2024 15:10:15                                    1        
+ 418485 2.00182 RunMolproJ zcaposm      qw    11/21/2024 15:10:15                                    1        
+ 418486 2.00182 RunMolproJ zcaposm      qw    11/21/2024 15:10:15                                    1        
+ 418488 2.00181 RunMolproJ zcaposm      qw    11/21/2024 15:10:20                                    1        
+ 418489 2.00181 RunMolproJ zcaposm      qw    11/21/2024 15:10:20                                    1        
+ 418490 2.00181 RunMolproJ zcaposm      qw    11/21/2024 15:10:20                                    1        
+ 418491 2.00180 RunMolproJ zcaposm      qw    11/21/2024 15:10:20                                    1        
+ 418492 2.00180 RunMolproJ zcaposm      qw    11/21/2024 15:10:20                                    1        
+ 418493 2.00180 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418494 2.00180 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418495 2.00179 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418496 2.00179 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418497 2.00179 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418498 2.00179 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418499 2.00178 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418500 2.00178 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418501 2.00178 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418502 2.00178 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418503 2.00177 RunMolproJ zcaposm      qw    11/21/2024 15:10:21                                    1        
+ 418505 2.00177 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418506 2.00177 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418507 2.00177 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418508 2.00176 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418509 2.00176 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418510 2.00176 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418511 2.00176 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418512 2.00175 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418513 2.00175 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418514 2.00175 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418515 2.00175 RunMolproJ zcaposm      qw    11/21/2024 15:10:22                                    1        
+ 418516 2.00174 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418517 2.00174 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418518 2.00174 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418519 2.00174 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418520 2.00174 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418521 2.00173 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418522 2.00173 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418523 2.00173 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418524 2.00173 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418525 2.00172 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418526 2.00172 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418527 2.00172 RunMolproJ zcaposm      qw    11/21/2024 15:10:23                                    1        
+ 418528 2.00172 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418529 2.00171 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418530 2.00171 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418531 2.00171 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418532 2.00171 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418533 2.00170 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418534 2.00170 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418535 2.00170 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418536 2.00170 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418537 2.00170 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418538 2.00169 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418539 2.00169 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418540 2.00169 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418541 2.00169 RunMolproJ zcaposm      qw    11/21/2024 15:10:24                                    1        
+ 418542 2.00168 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418543 2.00168 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418544 2.00168 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418545 2.00168 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418546 2.00168 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418547 2.00167 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418548 2.00167 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418549 2.00167 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418550 2.00167 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418551 2.00166 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418552 2.00166 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418553 2.00166 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418554 2.00166 RunMolproJ zcaposm      qw    11/21/2024 15:10:25                                    1        
+ 418555 2.00166 RunMolproJ zcaposm      qw    11/21/2024 15:10:26                                    1        
+ 418556 2.00165 RunMolproJ zcaposm      qw    11/21/2024 15:10:26                                    1        
+ 418982 2.00165 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418983 2.00165 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418984 2.00165 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418985 2.00164 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418986 2.00164 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418987 2.00164 RunMolproJ zcaposm      qw    11/21/2024 16:04:52                                    1        
+ 418988 2.00164 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418989 2.00164 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418990 2.00163 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418991 2.00163 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418992 2.00163 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418993 2.00163 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418994 2.00163 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418995 2.00162 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418996 2.00162 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418997 2.00162 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418998 2.00162 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 418999 2.00161 RunMolproJ zcaposm      qw    11/21/2024 16:04:53                                    1        
+ 419000 2.00161 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419001 2.00161 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419002 2.00161 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419003 2.00161 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419004 2.00160 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419005 2.00160 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419006 2.00160 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419007 2.00160 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419008 2.00160 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419009 2.00159 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419010 2.00159 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419011 2.00159 RunMolproJ zcaposm      qw    11/21/2024 16:04:54                                    1        
+ 419012 2.00159 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419013 2.00159 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419014 2.00158 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419015 2.00158 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419016 2.00158 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419017 2.00158 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419018 2.00158 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419019 2.00157 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419020 2.00157 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419021 2.00157 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419022 2.00157 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419023 2.00157 RunMolproJ zcaposm      qw    11/21/2024 16:04:55                                    1        
+ 419024 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419025 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419026 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419027 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419028 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419029 2.00156 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419030 2.00155 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419031 2.00155 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419032 2.00155 RunMolproJ zcaposm      qw    11/21/2024 16:04:56                                    1        
+ 419033 2.00155 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419034 2.00155 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419035 2.00154 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419036 2.00154 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419037 2.00154 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419038 2.00154 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419039 2.00154 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419040 2.00153 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419041 2.00153 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419042 2.00153 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419043 2.00153 RunMolproJ zcaposm      qw    11/21/2024 16:04:57                                    1        
+ 419044 2.00153 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419045 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419046 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419047 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419048 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419049 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419050 2.00152 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419051 2.00151 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419052 2.00151 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419053 2.00151 RunMolproJ zcaposm      qw    11/21/2024 16:04:58                                    1        
+ 419054 2.00151 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419055 2.00151 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419056 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419057 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419058 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419059 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419060 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419061 2.00150 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419062 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419063 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:04:59                                    1        
+ 419064 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419065 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419066 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419067 2.00149 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419068 2.00148 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419069 2.00148 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419070 2.00148 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419071 2.00148 RunMolproJ zcaposm      qw    11/21/2024 16:05:00                                    1        
+ 419072 2.00148 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419073 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419074 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419075 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419076 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419077 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:01                                    1        
+ 419078 2.00147 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419079 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419080 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419081 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419082 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419083 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419084 2.00146 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419085 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419086 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:02                                    1        
+ 419087 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419088 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419089 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419090 2.00145 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419091 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419092 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419093 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419094 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419095 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419096 2.00144 RunMolproJ zcaposm      qw    11/21/2024 16:05:03                                    1        
+ 419097 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419098 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419099 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419100 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419101 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419102 2.00143 RunMolproJ zcaposm      qw    11/21/2024 16:05:04                                    1        
+ 419295 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419296 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419297 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419298 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419299 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419301 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419302 2.00142 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419303 2.00141 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419304 2.00141 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419305 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:24                                    1        
+ 419306 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419307 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419308 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419309 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419310 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419311 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419312 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419313 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419314 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419315 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419316 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:25                                    1        
+ 419317 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419318 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419319 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419320 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419321 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419322 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419323 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419324 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:26                                    1        
+ 419325 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:31                                    1        
+ 419326 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:31                                    1        
+ 419327 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:31                                    1        
+ 419328 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419329 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419330 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419331 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419332 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419333 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:32                                    1        
+ 419334 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419335 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419336 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419337 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419338 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419339 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:33                                    1        
+ 419340 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419341 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419342 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419343 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419344 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419345 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419346 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419347 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419348 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419349 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419350 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:34                                    1        
+ 419351 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419352 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419353 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419354 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419355 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419356 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419357 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419358 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419359 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419360 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:35                                    1        
+ 419361 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419362 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419363 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419364 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419365 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419366 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419367 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419368 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419369 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419370 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:36                                    1        
+ 419371 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419372 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419373 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419374 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419375 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419376 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419377 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419378 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419379 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419380 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:37                                    1        
+ 419381 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:38                                    1        
+ 419382 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:38                                    1        
+ 419383 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:38                                    1        
+ 419384 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:38                                    1        
+ 419385 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:38                                    1        
+ 419386 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        
+ 419387 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        
+ 419388 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        
+ 419389 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        
+ 419390 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        
+ 419391 0.00000 RunMolproJ zcaposm      qw    11/21/2024 16:42:43                                    1        

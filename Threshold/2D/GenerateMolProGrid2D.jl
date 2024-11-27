@@ -53,12 +53,12 @@ aHH1eq::Float64=               61.43364279
 aHH2eq::Float64=              180.00000000
 aHH3eq::Float64=              298.56635721
 tauEq::Float64 = 60.00000
-rCH1eq::Float64=             EqCH(tauEq)         #1.09108970
-rCH2eq::Float64=             EqCH(tauEq + 120)   #1.08555104
-rCH3eq::Float64=             EqCH(tauEq + 240)    #1.09108970
-aOCH1eq::Float64=            EqaHCO(tauEq)        #111.95221297
-aOCH2eq::Float64=            EqaHCO(tauEq + 120)  #106.58134561
-aOCH3eq::Float64=            EqaHCO(tauEq + 240)  #111.95221297
+rCH1eq::Float64=             1.09108970     #EqCH(tauEq)        
+rCH2eq::Float64=             1.08555104     #EqCH(tauEq + 120)  
+rCH3eq::Float64=             1.09108970     #EqCH(tauEq + 240)  
+aOCH1eq::Float64=            111.95221297   #EqaHCO(tauEq)      
+aOCH2eq::Float64=            106.58134561   #EqaHCO(tauEq + 120)
+aOCH3eq::Float64=            111.95221297   #EqaHCO(tauEq + 240)
 equilibriumGrid::Vector{Float64} = [rCOeq, rOHeq, rCH1eq, rCH2eq, rCH3eq, aCOHeq, aOCH1eq, aOCH2eq, aOCH3eq, aHH1eq, aHH2eq, aHH3eq]
 
 function PrintGeometry(point::Int64, grid::Vector{Float64})
@@ -70,7 +70,7 @@ function SubmitJob(point::Int64, grid::Vector{Float64})
     run(submission)
 end
 
-point::Int64 = 1
+point::Int64 = 171
 grids::Vector{Vector{Float64}} = []
 
 for i in 1:5
@@ -125,12 +125,12 @@ for i in 1:5
             displacementVector[11] = torsionSpacing[l]
             displacementVector[12] = torsionSpacing[l]
             grid::Vector{Float64} = equilibriumGrid + displacementVector
-            grid[3] = EqCH(tauEq + torsionSpacing[l])
-            grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-            grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-            grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-            grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-            grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
+            # grid[3] = EqCH(tauEq + torsionSpacing[l])
+            # grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
+            # grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
+            # grid[7] = EqaHCO(tauEq + torsionSpacing[l])
+            # grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
+            # grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
             PrintGeometry(point, grid)
             push!(grids, grid)
             global point = point + 1
@@ -177,12 +177,12 @@ for i in 6:9
             displacementVector[11] = torsionSpacing[l]
             displacementVector[12] = torsionSpacing[l]
             grid::Vector{Float64} = equilibriumGrid + displacementVector
-            grid[3] = EqCH(tauEq + torsionSpacing[l])
-            grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-            grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-            grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-            grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-            grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
+            # grid[3] = EqCH(tauEq + torsionSpacing[l])
+            # grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
+            # grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
+            # grid[7] = EqaHCO(tauEq + torsionSpacing[l])
+            # grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
+            # grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
             PrintGeometry(point, grid)
             push!(grids, grid)
             global point = point + 1
@@ -214,12 +214,12 @@ for i in 10:11
         symmeterisedDihedrals[i - 9] = symmeterisedDihedrals[i - 9] + dihedralSpacing[j]
         for l in 2:torsionGrid
             grid::Vector{Float64} = equilibriumGrid + displacementVector
-            grid[3] = EqCH(tauEq + torsionSpacing[l])
-            grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
-            grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
-            grid[7] = EqaHCO(tauEq + torsionSpacing[l])
-            grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
-            grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
+            # grid[3] = EqCH(tauEq + torsionSpacing[l])
+            # grid[4] = EqCH(tauEq + torsionSpacing[l] + 120)
+            # grid[5] = EqCH(tauEq + torsionSpacing[l] + 240)
+            # grid[7] = EqaHCO(tauEq + torsionSpacing[l])
+            # grid[8] = EqaHCO(tauEq + torsionSpacing[l] + 120)
+            # grid[9] = EqaHCO(tauEq + torsionSpacing[l] + 240)
             grid[10] = tauEq+torsionSpacing[l]+1.0/3.0*sqrt(2.0)*symmeterisedDihedrals[2]
             grid[11] = 120.0+tauEq+torsionSpacing[l]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]-1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
             grid[12] = 240.0+tauEq+torsionSpacing[l]-1.0/6.0*sqrt(2.0)*symmeterisedDihedrals[2]+1.0/6.0*sqrt(6.0)*symmeterisedDihedrals[1]
