@@ -6,12 +6,12 @@
 set pwd = `pwd`
 
 set point = $1        
-set directory = /scratch/scratch/zcaposm/Scratch/Methanol/MOLPRO/SymmeterisedCoordinates/2D/CH3OH_2D_MEP_AdaptiveGrid
-set fname = CH3OH_2D_MEP_point_${point}
+set directory = /home/zcaposm/Scratch/Methanol/MOLPRO/C3V/1D/CH3OH_1D
+set fname = CH3OH_1D_VQZ_point_${point}
 
 cat<<endb> ${fname}.inp
 ***, Methanol Ground State Energy with CCSD(T)-F12 and cc-pVQZ-F12
-memory,500,m;
+memory,1000,m;
 gthresh,energy=1.d-10,zero=1.d-14,thrint=1.d-14,oneint=1.d-14,twoint=1.d-14,prefac=1.d-20
 
 geometry={angstrom
@@ -61,8 +61,10 @@ save,CH3OH_MEP_MP2_${point}.dat,new
 --- End of Script ---
 endb
 
-# module load molpro/2020.1/openmp
-molpro ${fname}.inp
+module load molpro/2020.1/openmp
+# module load molpro/2015.1.3
+# module load molpro/2015.1.5/intel-2015-update2 
+molpro -n 4 ${fname}.inp
 rm ${fname}.inp
 cp ${fname}.out ${directory}
 cp CH3OH_MEP_MP2_${point}.dat ${directory}

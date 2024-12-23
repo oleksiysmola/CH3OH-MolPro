@@ -6,8 +6,8 @@
 set pwd = `pwd`
 
 set point = $1        
-set directory = /scratch/scratch/zcaposm/Scratch/Methanol/MOLPRO/SymmeterisedCoordinates/2D/CH3OH_2D_MEP_AdaptiveGrid
-set fname = CH3OH_2D_MEP_point_${point}
+set directory = /home/zcaposm/Scratch/Methanol/MOLPRO/C3V/MonteCarlo/CH3OH_MonteCarloGrid
+set fname = CH3OH_MonteCarlo_point_${point}
 
 cat<<endb> ${fname}.inp
 ***, Methanol Ground State Energy with CCSD(T)-F12 and cc-pVQZ-F12

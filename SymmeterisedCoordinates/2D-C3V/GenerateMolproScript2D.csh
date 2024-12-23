@@ -6,7 +6,7 @@
 set pwd = `pwd`
 
 set point = $1        
-set directory = /scratch/scratch/zcaposm/Scratch/Methanol/MOLPRO/SymmeterisedCoordinates/2D/CH3OH_2D_MEP_AdaptiveGrid
+set directory = /home/zcaposm/Scratch/Methanol/MOLPRO/SymmeterisedCoordinates/2D/CH3OH_2D_MEP_AdaptiveGrid
 set fname = CH3OH_2D_MEP_point_${point}
 
 cat<<endb> ${fname}.inp
