@@ -140,6 +140,6 @@ function GenerateMonteCarloGrid(dimension::Int64, numberOfGridPoints::Int64, max
     end
 end
 
-GenerateMonteCarloGrid(4, numberOfGridPoints4D, 0.1)
-GenerateMonteCarloGrid(5, numberOfGridPoints5D, 0.5)
-GenerateMonteCarloGrid(6, numberOfGridPoints6D, 0.25)
+GenerateMonteCarloGrid(4, numberOfGridPoints4D, 0.15)
+GenerateMonteCarloGrid(5, numberOfGridPoints5D, 0.10)
+GenerateMonteCarloGrid(6, numberOfGridPoints6D, 0.05)
