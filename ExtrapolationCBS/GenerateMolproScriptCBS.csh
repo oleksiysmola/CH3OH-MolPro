@@ -11,7 +11,7 @@ set fname = CH3OH_CBS_${point}
 
 cat<<endb> ${fname}.inp
 ***, Methanol ground state at CCSD(T)-F12 and aug-cc-pV(T-Q)Z-F12 to CBS
-memory,500,m;
+memory,1000,m;
 gthresh,energy=1.d-10,zero=1.d-14,thrint=1.d-14,oneint=1.d-14,twoint=1.d-14,prefac=1.d-20
 
 geometry={angstrom
