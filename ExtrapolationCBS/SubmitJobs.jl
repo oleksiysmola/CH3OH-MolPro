@@ -1,4 +1,4 @@
-point::Int64 = 16592
+point::Int64 = 18081
 jobSplit::Int64 = 5
 numberOfJobs::Int64 = 1000
 
